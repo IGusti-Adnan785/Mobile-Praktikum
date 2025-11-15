@@ -23,7 +23,6 @@ class Homepage extends StatelessWidget {
             ],
           ),
         ),
-        // listview() dan gridview() sekarang menangani BuildContext mereka sendiri
         body: TabBarView(children: [listview(), gridview()]),
       ),
     );
